@@ -1,0 +1,29 @@
+{
+  "name": "Clojure DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+    "extensions": [
+      "betterthantomorrow.calva",
+      "streetsidesoftware.code-spell-checker",
+      "ms-vsliveshare.vsliveshare",
+      "GrapeCity.gc-excelviewer",
+      "mhutchie.git-graph",
+      "donjayamanne.githistory",
+      "GitHub.vscode-pull-request-github",
+      "MS-CEINTL.vscode-language-pack-ja",
+      "yzhang.markdown-all-in-one",
+      "shd101wyy.markdown-preview-enhanced",
+      "DavidAnson.vscode-markdownlint",
+      "oderwat.indent-rainbow",
+      "mosapride.zenkaku",
+      "aaron-bond.better-comments",
+      "shardulm94.trailing-spaces",
+      "GitHub.github-vscode-theme"
+    ]
+  },
+},
+  "remoteUser": "root"
+}

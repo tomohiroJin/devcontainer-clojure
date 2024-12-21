@@ -1,0 +1,36 @@
+# IntelliJ IDEA / VS Codeなどのエディタ関連
+.idea/
+.vscode/
+*.swp
+
+# Leiningen / Clojure関連
+/.lein-repl-history
+/.cpcache/
+/target/
+
+# Node.js関連 (ClojureScript開発用)
+node_modules/
+*.log
+
+# Docker / DevContainer関連
+.devcontainer/.env
+.devcontainer/tmp/
+docker-compose.override.yml
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ログファイル
+*.log
+
+# バックアップファイル
+*~
+*.bak
+*.tmp
+*.old
+
+# 他
+.lsp
+.clj-kondo
