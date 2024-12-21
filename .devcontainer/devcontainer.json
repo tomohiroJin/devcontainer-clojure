@@ -4,8 +4,9 @@
     "dockerfile": "Dockerfile"
   },
   "customizations": {
+    "vscode": {
     "extensions": [
-      "betterthantomorrow.calva", // Clojure用拡張
+      "betterthantomorrow.calva",
       "streetsidesoftware.code-spell-checker",
       "ms-vsliveshare.vsliveshare",
       "GrapeCity.gc-excelviewer",
@@ -23,6 +24,6 @@
       "GitHub.github-vscode-theme"
     ]
   },
-  "postCreateCommand": "clojure -M:dev", // 必要に応じて変更
+},
   "remoteUser": "root"
 }
